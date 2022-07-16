@@ -1,0 +1,104 @@
+body{
+    background-color: #0c151e;
+}
+.bg-color{
+    background-color: #0a1016;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link,.active{
+    color: #808191 !important;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: white !important;
+}
+#home_sec{
+    margin: 2%;
+}
+.carousel-inner{
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+.mov_txt{
+    color: white;
+    margin-left: 1%;
+    font-size:x-large;
+    font-weight: 500;
+}
+.mov_details img{
+    margin: 15%;
+    margin-top: 15%;
+    border-radius: 10px;
+    max-width: 150px;
+    max-height: 300px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.mov_details img:hover{
+    border-style: solid;
+    border-color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.news{
+    overflow: auto;
+}
+.news::-webkit-scrollbar {
+    display: none;
+}
+
+/* movie_details */
+.movie_details{
+    border-radius: 10px;
+    border-style: solid;
+    margin: 5%;
+    display: flex;
+}
+.movie_details img{
+    border-radius: 10px;
+    max-width: 150px;
+    max-height: 300px;
+    margin: 10%;
+}
+.movie_data{
+    margin: 3%;
+    color: white;
+}
+#movie_name{
+    font-size: xx-large;
+    font-weight: 500;
+}
+#movie_date-rate-dura{
+    font-size: small;
+}
+.bi-star-fill::before {
+    font-size: 10px;
+}
+
+.play_btn,.download_btn,.fhd_btn,.hd_btn{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.movie_trailer{
+    border-radius: 10px;
+    border-style: solid;
+    margin: 5%;
+}
+iframe{
+    border-radius: 9px;
+}
+.trailer_txt{
+    color: white;
+    font-size:x-large;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-top: 5%;
+}
